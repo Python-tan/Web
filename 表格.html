@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>table</title>
+	<link rel="stylesheet" type="text/css" href="css3/表格.css"/>
+  </head>
+  <body>
+    <caption>FIRST</caption>
+    <table name="First" border="1" cellpadding="10" cellspacing="0">
+    <colgroup>
+      <col span="1" style="background-color:yellow">
+      <col span="2" style="background-color:red">
+    </colgroup>
+    <tr>
+      <th>Header 1</th>
+      <th colspan="2">Header 2</th>
+    </tr>
+    <tr>
+      <td>a1</td>
+      <td>a2</td>
+      <td>a3</td>
+    </tr>
+    <tr>
+      <td>b1</td>
+      <td>b2</td>
+      <td>b3</td>
+    </tr>
+    <tr>
+      <td>c1</td>
+      <td>c2</td>
+      <td>c3</td>
+    </tr>
+    </table>
+    <caption>SECOND</caption><!--This is a title of this table-->
+    <table border="1" cellspacing="10" class="second">
+      <tr>
+	<th>Header 1</th>
+	<td>a1</td>
+      </tr>
+      <tr>
+	<th rowspan="2">Header 2</th>
+	<td>b1</td>
+      </tr>
+      <tr>
+	<td>c1</td>
+      </tr>
+     </table>
+  </body>
+</html>
