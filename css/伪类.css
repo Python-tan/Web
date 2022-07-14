@@ -1,0 +1,12 @@
+p:first-child
+{
+	color: #0000FF;
+}
+p:first-line
+{
+	background-color: #0000FF;
+}
+p:first-letter
+{
+	font-family:"arial black";
+}

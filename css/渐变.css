@@ -1,0 +1,33 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+/*repeating-linear-gradient()用于重复线性渐变*/
+#man
+{
+    background: linear-gradient(to top,red,blue);/*从下到上的渐变*/
+}
+#ex
+{
+    background: linear-gradient(to bottom right,red,blue);/*从左上到右下的渐变*/
+}
+.s
+{
+    /*带角度的线性渐变*/background:linear-gradient(90deg,red,rgba(255, 0, 0, 0.418));
+}
+
+/*以下为径向渐变*/
+/*repeating-radial-gradient()用于重复径向渐变*/
+#woman
+{
+    height: 80px;
+    width:250px;
+    background:radial-gradient(red,blue,green);/*Ellipse椭圆形的径向渐变*/
+}
+#hhh
+{
+    height: 100px;
+    width:100px;
+    background:repeating-radial-gradient(circle,red 5%,yellow 10%,blue 20%) ;
+}

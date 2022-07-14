@@ -1,0 +1,20 @@
+#hhh
+{
+	outline:dotted darkblue 5px;
+	border-top-style:ridge;
+	border-bottom-style:groove;
+	border-right-style: outset;
+	border-left-style: inset;
+	border-width: 10px;
+	border-color: #00FFFF;
+	border-radius:15px;/*圆角*/
+}
+#ex
+{
+	margin: 100px;
+	background-color: #00FFFF;
+	background-image: url(a.jpg);
+	background-repeat: no-repeat;
+	box-shadow:10px 10px 18px   #00008B;/*盒阴影*/
+	border: 100px;
+}

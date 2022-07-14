@@ -1,0 +1,12 @@
+/*在屏幕上将显示此字体*/@media screen {
+	p#ex
+	{
+		font-family: "arial black";
+	}
+}
+/*打印时将显示此字体*/@media print {
+	p#ex
+	{
+		font-family: "楷体";
+	}
+}

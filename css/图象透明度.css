@@ -1,0 +1,12 @@
+.img
+{
+	opacity:0.5;
+}
+.img:hover
+{
+	opacity:1;
+}
+#ex
+{
+	font-family:"comic sans ms";
+}

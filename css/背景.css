@@ -1,0 +1,15 @@
+.hhh
+{
+	background-color: wheat;
+	
+}
+#hhh
+{
+	background-image: url('D:\\Download\\picture\\a.jpg');
+}
+body
+{
+	background-image:url('D:\\Download\\picture\\a.jpg') ;
+	background-repeat: repeat-x;
+	background-position: right top;
+}

@@ -1,0 +1,39 @@
+body
+{
+    padding:0px;
+    margin:0px;
+}
+#a
+{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    margin: 150px;
+}
+#aa
+{
+
+
+    
+    background: red;
+
+    width: 150px;
+    height:150px;
+    opacity: 0;
+    transition: height 1s,transform 1s,opacity 1s;
+}
+#aaa
+{
+    line-height: 4px;    
+    position: absolute;
+    top:23px;
+    left: 55px;
+}
+
+#aa:hover
+{
+    transform: translateY(150px);
+    opacity: 1;
+    height: 50px;
+
+}

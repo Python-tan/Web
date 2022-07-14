@@ -1,0 +1,16 @@
+p#hhh  
+{
+	font-family: myFont;
+	font-style: italic;
+}
+p#ex
+{
+	font-size: larger;
+	font-family:myFont;
+	color: aqua;
+	
+}
+@font-face {
+	font-family: myFont;
+	src: url(geetype.ttf);/*设置自定义字体*/
+}

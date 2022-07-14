@@ -1,0 +1,39 @@
+div
+{
+    width: 100px;
+    height:100px;
+}
+#a
+{
+    background-color: red;
+    transform: translate(50px,50px);/*移动*/
+}
+#b
+{
+    background-color:orange;
+    margin: 100px;
+    transform:rotate(30deg);/*rotate值（30deg）元素顺时针旋转30度*/
+}
+#c
+{
+    background-color:yellow;
+    transform:scale(2,3);/*scale（2,3）转变宽度为原来的大小的2倍，和其原始大小3倍的高度*/  
+    margin-bottom:100px;  
+}
+#d
+{
+    background-color: green;
+    transform:skew(60deg,60deg);/*skew(30deg,20deg)是绕X轴和Y轴周围20度30度的元素。   
+    */
+}
+#e
+{}
+
+
+#f
+{
+}
+#g
+{
+
+}

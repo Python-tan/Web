@@ -1,0 +1,22 @@
+#ex
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#rel
+{
+	position: relative;
+	top: 10px;
+	right: 10px;
+}
+#fix
+{
+	position:fixed;
+	top: 10px;
+	right: 10px;
+}
+#hhh
+{
+	z-index: -1;
+}

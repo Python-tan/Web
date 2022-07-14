@@ -1,0 +1,21 @@
+.second,th,td
+{
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: top;
+}
+table
+{
+	border-collapse: collapse;
+}
+.second th
+{
+	width: 100px;
+	height: 100px;
+	background-color: #0000FF;
+}
+.second td
+{
+	padding:50px;
+	background-color: #008B8B;
+}

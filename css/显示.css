@@ -1,0 +1,14 @@
+.fuck:link
+{
+	color: #00FFFF;
+}
+.fuck:visited
+{
+	color: red;
+	text-decoration:underline;
+	display: inline;
+}
+.fuck:hover
+{
+	visibility: hidden;
+}

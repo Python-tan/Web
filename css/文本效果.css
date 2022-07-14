@@ -1,0 +1,17 @@
+h1
+{
+    text-shadow: 3px 10px 10px #696969;
+}
+#ex
+{
+    border:1px solid #000000;
+    word-wrap:break-word;/*设置文本换行*/
+}
+#man
+{
+    width: 100px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;/*处理溢出内容*/
+
+}

@@ -1,0 +1,24 @@
+#hhh
+{
+	background-color: aqua;
+}
+.hhh
+{
+	background-color: blue;
+}
+.div-p p
+{
+	background-color: #00FFFF;
+}
+.div-p>p
+{
+	font-family: latha;
+}
+/*.div-p+p
+{
+	background-color: #0000FF;
+}*/
+.div-p~p
+{
+	background-color: #008B8B;
+}
