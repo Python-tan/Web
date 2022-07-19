@@ -1,0 +1,10 @@
+#main1
+{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    resize: both;
+    border-radius: 50%;
+    border: dashed 5px  blue;
+}
