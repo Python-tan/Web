@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @-webkit-keyframes myFirst
 {
     0%
@@ -80,4 +81,88 @@
     background-color: aqua;
     animation:myFirst 5s linear 0.1s infinite alternate;
     -webkit-animation:myFirst 5s linear 0.1s infinite alternate;
+=======
+@-webkit-keyframes myFirst
+{
+    0%
+    {
+        background-color: aqua;
+        left: 0px;
+        top:0px ;
+    
+    }    
+    25%
+    {
+        background-color:blue ;
+        left: 200px;
+        top: 0px;
+
+    }
+    50%
+    {
+        background-color: aquamarine;
+        left: 200px;
+        top: 200px;
+
+    }
+    75%
+    {
+        background-color: cadetblue;
+        left: 0px;
+        top:200px;
+    }
+    100%
+    {
+        background-color: rgb(1, 48, 48);
+        left: 0px;
+        top:0px ;
+    }
+}
+
+@keyframes myFirst
+{
+    0%
+    {
+        background-color: aqua;
+        left: 0px;
+        top:0px ;
+    
+    }    
+    25%
+    {
+        background-color:blue ;
+        left: 200px;
+        top: 0px;
+
+    }
+    50%
+    {
+        background-color: aquamarine;
+        left: 200px;
+        top: 200px;
+
+    }
+    75%
+    {
+        background-color: cadetblue;
+        left: 0px;
+        top:200px;
+    }
+    100%
+    {
+        background-color: rgb(1, 48, 48);
+        left: 0px;
+        top:0px ;
+    }
+}
+#b
+{
+    position:relative;
+    height: 100px;
+    width: 100px;
+    opacity: 0.1;
+    background-color: aqua;
+    animation:myFirst 5s linear 0.1s infinite alternate;
+    -webkit-animation:myFirst 5s linear 0.1s infinite alternate;
+>>>>>>> 502f06c19bbc946b06d0b074b5783bc182a00c54
 }
