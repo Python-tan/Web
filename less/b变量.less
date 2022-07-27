@@ -1,0 +1,16 @@
+@color:blue;/*变量*/
+@selector:.world;/*变量选择器*/
+@h:h1;
+@images:"./picture";/*变量url*/
+.hello
+{
+    background-color: @color;
+}
+@{selector}
+{
+    background:url("@{images}/a.jpg");
+    @{h}
+    {
+        color:@color;
+    }
+}

@@ -1,0 +1,62 @@
+:root
+{
+	--flex: .main li;
+}
+.main
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+	flex-direction: row;
+	/*flex-wrap: wrap;
+*/
+}
+.main li 
+{
+	flex-basis: 300px;/*条目的初始主轴尺寸*/
+	padding: 0;
+	margin: 0;
+	width: 300px;
+	height: 300px;
+	background-color: yellow;
+}
+.main li:last-child
+{
+	order: -1;
+}
+/*.main li:nth-child(1)
+{
+	flex-grow: 1;
+}
+
+.main li:nth-child(2)
+{
+	flex-grow: 2;
+}
+.main li:nth-child(3)
+{
+	flex-grow: 3;
+}
+.main li:nth-child(4)
+{
+	flex-grow: 4;
+}*/
+.main li:nth-child(1)
+{
+	flex-shrink: 1;
+}
+
+.main li:nth-child(2)
+{
+	flex-shrink:  2;
+}
+.main li:nth-child(3)
+{
+	flex-shrink: 3;
+}
+
+.main li:nth-child(4)
+{
+	flex-shrink: 4;
+}

@@ -1,0 +1,12 @@
+:root/*全局变量*/
+{
+    --blue:#1e90ff;
+    --white:#ffffff;
+}
+p
+{
+    --color:aqua;/*局部变量*/
+    background: var(--blue);
+    color: var(--color);
+
+}

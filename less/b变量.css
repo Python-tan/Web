@@ -1,0 +1,12 @@
+/*变量*/
+/*变量选择器*/
+/*变量url*/
+.hello {
+  background-color: blue;
+}
+.world {
+  background: url("./picture/a.jpg");
+}
+.world h1 {
+  color: blue;
+}
